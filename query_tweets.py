@@ -5,10 +5,10 @@ from matplotlib import pyplot as plt
 import csv
 
 #initialize twittter app credentials
-consumer_key = 'HFYB89RBwdthbpEmyYHTESjEc'
-consumer_secret = '2qP3SRd5XZpeQjUfWI8Wo3VE9WtXo15AiESkBflu61naYNoXVV'
-access_token = '1170632448-JkrPEbz57K5Ifj8ZvqFShiNFFu5pLINwzkjpBcp'
-access_token_secret = 'eDOFB6PalTHv1dW2NOX6KP3oDHwVlVkVmsGoVdtXo7qRa'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 # Authenticate
 
