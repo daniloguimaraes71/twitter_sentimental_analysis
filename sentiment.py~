@@ -1,0 +1,32 @@
+import tweepy as tw
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+import csv
+
+#initialize twittter app credentials
+consumer_key = 'HFYB89RBwdthbpEmyYHTESjEc'
+consumer_secret = '2qP3SRd5XZpeQjUfWI8Wo3VE9WtXo15AiESkBflu61naYNoXVV'
+access_token = '1170632448-JkrPEbz57K5Ifj8ZvqFShiNFFu5pLINwzkjpBcp'
+access_token_secret = 'eDOFB6PalTHv1dW2NOX6KP3oDHwVlVkVmsGoVdtXo7qRa'
+
+# Authenticate
+
+auth = tw.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+api = tw.API(auth, wait_on_rate_limit=True)#, timeout=1000)
+
+# tweet query and save csv
+csvFile = open('impeachment_tweets.csv', 'a')
+csvWriter = csv.writer(csvFile)
+
+hashtag = '#ImpeachmentBolsonaroUrgente since:2021-02-27  until:2021-03-01'
+#query = tw.Cursor(api.search, q=hashtag,lang='pt').items(100)
+
+
+for tweet in tw.Cursor(api.search,q=hashtag, lang='pt', count=5000).items():
+    try:
+        print(tweet.created_at, tweet.text)
+        csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')])
+    except:
+        continue
