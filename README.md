@@ -7,3 +7,10 @@ Python code to crawler and analyze tweeter data
  
  Reference tutorial:
  https://realpython.com/twitter-bot-python-tweepy/
+
+### Query tweets
+Initialize the credentials, query data on twitter and save as csv file
+
+### Analyze
+We read the csv data into a Pandas dataset.
+-The split_date() function splits the time stamp.
