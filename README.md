@@ -8,14 +8,14 @@ Python code to crawler and analyze tweeter data
  Reference tutorial:
  https://realpython.com/twitter-bot-python-tweepy/
 
-### Query tweets
+### query_tweets.py
 Initialize the credentials, query data on twitter and save as csv file
 
-### Analyze
+### analyze.py
 We read the csv data into a Pandas dataset.
 
-The split_date() function splits the time stamp.
+- The split_date() function splits the time stamp.
 
-generate_graphs() generates daily and hourly time stamped graphs of the number of tweets.
+- generate_graphs() generates daily and hourly time stamped graphs of the number of tweets.
 
-sentiment()
+- sentiment()
