@@ -1,6 +1,9 @@
 # twitter_sentimental_analysis
 
-Python code to crawler and perform natural language processing on tweeter data
+Python code to crawler and perform natural language processing (NLP) on tweeter data. 
+
+## Goals
+Our goal is to implement NLP methods and observe the relation between public opinion, the activity of the hashtag **#ImpeachmentBolsonaroUrgente** , 'Impeach Bolsonaro Urgently', and the news related to the Brazilian president.
 
 ## Getting started
  We will use tweepy to access and save tweeter data. In order to access the twitter api it is necessary to create an developer account and generate access tolkens
