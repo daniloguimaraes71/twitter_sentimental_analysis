@@ -18,7 +18,5 @@ We read the csv data into a Pandas dataset.
 
 - generate_graphs() generates daily and hourly time stamped graphs of the number of tweets.
 
-- sentiment()
+- In preprocess_tweets() we use Natural Language Toolkit NLTK (https://www.nltk.org/) to generate stop words which are passed into the tweet_processing() function which removes stop words, signs and lemmatizes the tweets.
 
- nltk
- https://www.nltk.org/
