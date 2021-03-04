@@ -37,4 +37,4 @@ A similar behaviour was observed on the average subjectivity of the tweets, but 
 </p>
 
 ## Considerations
-On the date we observe a significant increase of mentions of the hashtag on the 27th ######procurar razao######. We also observe a second increase on the 3rd of March which is consistent to the release of the news of 1910 deaths and by Covid19 in Brazil.
+On the date we observe a significant increase of mentions of the hashtag on the 27th, we are still considering the reason to that. We also observe a second increase on the 3rd of March which is consistent to the release of the news of 1910 deaths and by Covid19 in Brazil.
