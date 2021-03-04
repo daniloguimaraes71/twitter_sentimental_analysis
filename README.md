@@ -20,3 +20,4 @@ We read the csv data into a Pandas dataset.
 
 - In preprocess_tweets() we use Natural Language Toolkit NLTK (https://www.nltk.org/) to generate stop words which are passed into the tweet_processing() function which removes stop words, signs and lemmatizes the tweets.
 
+- sentiment_graphs() generates daily and hourly time stamped graphs of the polarity and subjectivity of the tweets.
