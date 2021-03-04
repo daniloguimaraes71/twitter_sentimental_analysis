@@ -13,4 +13,9 @@ Initialize the credentials, query data on twitter and save as csv file
 
 ### Analyze
 We read the csv data into a Pandas dataset.
--The split_date() function splits the time stamp.
+
+The split_date() function splits the time stamp.
+
+generate_graphs() generates daily and hourly time stamped graphs of the number of tweets.
+
+sentiment()
