@@ -24,7 +24,7 @@ We read the csv data into a Pandas dataset.
 - sentiment_graphs() generates daily and hourly time stamped graphs of the polarity and subjectivity of the tweets.
 
 ## Test Results
-We tested the code on the hashtag #ImpeachmentBolsonaroUrgente for the date spam between 2021/02/23 and 2021/03/03 (yyyy/mm/dd).
+We tested the code on the hashtag **#ImpeachmentBolsonaroUrgente** for the date spam between 2021/02/23 and 2021/03/03 (yyyy/mm/dd).
 On the tweet number we observe a spike of tweets on 02/27:
 
 <img src="https://user-images.githubusercontent.com/68067140/109921221-d9a5ef00-7cfe-11eb-942a-a499e9f2cb9f.png" width="400">
