@@ -67,10 +67,10 @@ def sentiment(tweets):
     stop_words = stopwords.words('portuguese')
     custom_stopwords = ['RT', '#ImpeachmentBolsonaroUrgente']
 
+    
     tweets['processed_tweets'] = tweets['Text'].apply(lambda x: preprocess_tweets(x, stop_words, custom_stopwords))
 
-    print(tweets['Text'][20])
-    print(tweets['processed_tweets'][20])
+    tweets.to_csv('lemmatized.csv')
 
 # load csv with tweet data
 tweets = pd.read_csv('impeachment_tweets.csv')
