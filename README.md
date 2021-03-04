@@ -27,8 +27,11 @@ We read the csv data into a Pandas dataset.
 We tested the code on the hashtag #ImpeachmentBolsonaroUrgente for the date spam between 2021/02/23 and 2021/03/03 (yyyy/mm/dd).
 On the tweet number we observe a spike of tweets on 02/27:
 
-<img src="https://user-images.githubusercontent.com/68067140/109921221-d9a5ef00-7cfe-11eb-942a-a499e9f2cb9f.png" width="500">
+<img src="https://user-images.githubusercontent.com/68067140/109921221-d9a5ef00-7cfe-11eb-942a-a499e9f2cb9f.png" width="400">
 
 A similar behaviour was observed on the average subjectivity of the tweets, but the same behaviours is not observed on the polarity of the tweets:
 
-<img src="https://user-images.githubusercontent.com/68067140/109921317-078b3380-7cff-11eb-8a5a-419dab9f256f.png" width="500">
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/68067140/109921317-078b3380-7cff-11eb-8a5a-419dab9f256f.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/68067140/109922850-56d26380-7d01-11eb-8af7-7c5aedef2961.png" width="400" /> 
+</p>
