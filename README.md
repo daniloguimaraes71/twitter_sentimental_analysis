@@ -35,3 +35,6 @@ A similar behaviour was observed on the average subjectivity of the tweets, but 
   <img src="https://user-images.githubusercontent.com/68067140/109921317-078b3380-7cff-11eb-8a5a-419dab9f256f.png" width="400" />
   <img src="https://user-images.githubusercontent.com/68067140/109922850-56d26380-7d01-11eb-8af7-7c5aedef2961.png" width="400" /> 
 </p>
+
+## Considerations
+On the date we observe a significant increase of mentions of the hashtag on the 27th ######procurar razao######. We also observe a second increase on the 3rd of March which is consistent to the release of the news of 1910 deaths and by Covid19 in Brazil.
