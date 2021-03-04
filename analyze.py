@@ -73,7 +73,7 @@ def sentiment(tweets):
     tweets.to_csv('lemmatized.csv')
 
 # load csv with tweet data
-tweets = pd.read_csv('impeachment_tweets.csv')
+tweets = pd.read_csv('~/Documents/tweetdata/impeachment_tweets.csv')
 
 # treat time data
 tweets = split_date(tweets)
