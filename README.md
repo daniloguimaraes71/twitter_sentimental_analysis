@@ -19,3 +19,6 @@ We read the csv data into a Pandas dataset.
 - generate_graphs() generates daily and hourly time stamped graphs of the number of tweets.
 
 - sentiment()
+
+ nltk
+ https://www.nltk.org/
